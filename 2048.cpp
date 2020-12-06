@@ -33,7 +33,8 @@ int main() {
 		score -= 2;
 	}
 	cout << "Your Score is: " << score << endl;
-	while (1);
+	cout << "Input q to exit" << endl;
+	while (getchar()!='q');
 	return 0;
 }
 Game_2048::Game_2048() {
